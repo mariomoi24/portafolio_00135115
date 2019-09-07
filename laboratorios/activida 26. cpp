@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+
+struct complex {
+    
+  double real;  
+  double imag;
+  
+  complex(double = 0.0, double = 0,0);
+    
+    static complexte sqrt (const complex &n);
+    };
+
+complex :: complex(double r, double i) {
+    
+    real = r;
+    imag = j;
+    
+}
+    
+    const std::ostream& operator<<(const std::ostream &out, const Complex &n) {
+	out << n.real << '+' << n.imag << 'i';
+	return out;
+
+
+Complex operator*(const Complex &a, const Complex &b);
+Complex operator+(const Complex &a, const Complex &b) { return Complex( a.real + b.real, a.imag + b.imag ); }
+Complex operator-(const Complex &n) { return -1 * n; }
+Complex operator-(const Complex &a, const Complex &b) { return a + -b; }
+    
+    
+    
+
+    }
+
+
+int main(void){
+    
+    cout<<"se nos enmarcaran los numeros complejos:"<<endl;
+    cin>>nemroscomlejos;
+    
+    
+    
+    
+  return 0;  
+    
+    }
+    
+    
