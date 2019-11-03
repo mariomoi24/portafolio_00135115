@@ -1,0 +1,12 @@
+actividad 10
+notacion infija a postfija
+
+A-B/(C*D$E) INFIJA
+ 
+AB-/(CD*E$) POSTFIJA
+
+((A+B)*C-(D-E)$(F+G) INFIJA
+
+((AB+)*C-(DE-)(FG+)$
+
+
